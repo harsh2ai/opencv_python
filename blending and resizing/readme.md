@@ -1,12 +1,12 @@
 # General info for first timers
 -
 - Two images are required for blending of images firstly we need to make sure that two images must have same height,width for performing this operation
--
--
+
+
 -The image can be resized by by inbuilt functions of opencv library first the size of image is Known using image.shape function upon passing the function we will get three parameters 
 these parameters tell us width,height and number of features of image that is blue,green,red values.The third value should not be altered.
 -
--
+
 # points to be done
 -
 -we pass the function cv2.resize(im1,dim,interpolation=cv2.INTER_AREA) to resize the image 1 the interpolation in the given arguments is a technicque out of many possible things that can be tried
